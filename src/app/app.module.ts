@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { WebglComponent } from './webgl/webgl.component';
+import { MultipleObjectsComponent } from './multiple-objects/multiple-objects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WebglComponent
+    WebglComponent,
+    MultipleObjectsComponent
   ],
   imports: [
     BrowserModule

@@ -59,8 +59,8 @@ export class WebglComponent implements OnInit {
   }
 
   initiateWebGL() {
+    // Setting up the global variables
     canvas = document.getElementById('webglCanvas');
-    // Create WebGL2 Rendering Context
     gl = canvas.getContext('webgl2');
     if (!gl) {
       alert('No WebGL2 available!')
